@@ -83,10 +83,10 @@ a{
 a:hover, a.enlaces:active{
   color: rgb(219, 117, 251);
   text-decoration: underline;
-  font-size: 120%;
 }
 
 a.enlaces:hover{
+  font-size: 120%;
 }
 
 li{

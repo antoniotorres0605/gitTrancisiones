@@ -25,7 +25,21 @@ header{
   /*Fuente*/
   font-family: 'Source Sans Pro', sans-serif;
   color: white;
+
+  animation-name: entrada;
+  animation-duration: 2s;
 }
+
+@keyframes entrada {
+  from {
+    background-color: rgb(255, 255, 255);
+
+  }
+  to {
+    background-color: rgb(23, 23, 99);
+  }
+}
+
 
 .listaNav{
   display: flex;

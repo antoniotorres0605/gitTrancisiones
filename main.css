@@ -1,7 +1,7 @@
+
 /*HTML*/
 html{
-  background-image: 
-    url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701440103.jpg");
+  background-image: url("https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bXVyYWwlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -78,10 +78,10 @@ input{
 
 .mainContactanos{
   color: white;
-  margin: 15px;
-  padding-top: 75px;
-  padding-bottom: 75px;
-  background-color: rgb(135, 135, 238);
+  font-weight: bolder;
+  margin: 115px;
+  padding: 75px;
+  background-color: rgb(105, 105, 134);
   display: flex;
   justify-content: center;
 }
@@ -116,9 +116,7 @@ li{
   font-weight: bold;
   justify-content: left;
 }
-.formPreferencias{
-  display: block;
-}
+
 
 .divPreferencias label{
   display: inline;

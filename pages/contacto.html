@@ -13,6 +13,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cyberscope</title>
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/3737/3737173.png">
+
+    <!--CSS y Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../main.css">
 
     <!--Fuentes-->
@@ -50,22 +53,30 @@
 
     <!--MAIN-->
     <main class="mainContactanos">
-        
-      <form action="" method="" enctype="">
-        <h2>Contactanos!</h2>
-        <label for="inpNombre">Nombre</label>
-        <input type="input" name="inpNombre" value="1"/>
-        <label for="inpCorreo">Correo</label>
-        <input type="input" name="inpCorreo" value="1"/>
-        <label for="txtaComentario">Comentario</label>
-        <input type="input" name="txtaComentario" value="1"/>
-        <div>
-          <button type="submit">Enviar</button>
-          <button type="reset">Limpiar</button>
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-3">
+          <h3>Contactanos</h3> 
         </div>
-
-      </form>
-      
+         
+       
+        <form class="row g-6">
+          <div class="col-md-6">
+            <label for="inputEmail" class="form-label">Correo</label>
+            <input type="email" class="form-control" id="inputEmail">
+          </div>
+          <div class="col-md-6">
+            <label for="inputNombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="inputNombre">
+          </div>
+          <div class="col-12">
+            <label for="inputComentario" class="form-label">Comentarios</label>
+            <textarea type="textArea" class="form-control" id="inputComentario" placeholder="Coloca tus comentarios"></textarea>
+          </div>
+          <div class="col-12 align-center">
+            <button type="submit" class="btn btn-primary mt-3">Enviar</button>
+          </div>
+      </div>
+        </form>
     </main>
 
 
@@ -76,6 +87,6 @@
       <p>Copyright</p>
       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/1025px-Instagram-Icon.png" alt="imgIg" class="imgFooter">
     </div>
-      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>

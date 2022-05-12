@@ -19,7 +19,7 @@ header{
   
   /*Background*/
   grid-area: header;
-  background-color: rgb(23, 23, 99);
+  background-color: rgb(33, 37, 41);
   height: 250px;
 
   /*Fuente*/
@@ -27,7 +27,7 @@ header{
   color: white;
 
   animation-name: entrada;
-  animation-duration: 2s;
+  animation-duration: 1.5s;
 }
 
 @keyframes entrada {
@@ -36,7 +36,7 @@ header{
 
   }
   to {
-    background-color: rgb(23, 23, 99);
+    background-color: rgb(33, 37, 41);
   }
 }
 
@@ -77,10 +77,13 @@ input{
 }
 
 .mainContactanos{
+  height: 1000px;
   color: white;
   font-weight: bolder;
-  margin: 115px;
-  padding: 75px;
+  /*margin: 115px;
+  padding: 75px;*/
+  border: solid 100px;
+  border-color: rgb(33, 37, 41);
   background-color: rgb(105, 105, 134);
   display: flex;
   justify-content: center;
@@ -161,14 +164,19 @@ li{
 }
 
 #footer{
-  background-color: rgb(23, 23, 99);
+  background-color: rgb(33, 37, 41);
   /*Fuente*/
   font-family: 'Source Sans Pro', sans-serif;
   color: white;
   display: flex;
   justify-content: space-around;
+  animation-name: entrada;
+  animation-duration: 2s;
 }
 
+.imgTienda{
+  max-width: 300px;
+}
 
 /*VERSIÓN DISPOSITIVO*/
 
